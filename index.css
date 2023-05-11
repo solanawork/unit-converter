@@ -1,46 +1,43 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .maint-part {
-    height: 200px;
-    display: block;
-    text-align: center;
-    background-color: purple;
- }
-
-
+  height: 200px;
+  display: block;
+  text-align: center;
+  background-color: purple;
+}
 
 #convert-btn {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 20px;
-    
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
 #user-input {
-    height: 80px;
-    width: 115px;
-    font-size: 75px;
-    text-align: center;
-    margin-top: 10px;
+  height: 80px;
+  width: 115px;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .lower-part {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 .box {
-    height: 85px;
-    background-color: darkslateblue;
-    margin: 20px 15px; 
-    padding: 5px;
+  height: 85px;
+  background-color: darkslateblue;
+  margin: 20px 15px;
+  padding: 5px;
 }
