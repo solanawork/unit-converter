@@ -32,3 +32,15 @@ h1 {
     text-align: center;
     margin-top: 10px;
 }
+
+.lower-part {
+    display: block;
+    text-align: center;
+}
+
+.box {
+    height: 85px;
+    background-color: darkslateblue;
+    margin: 20px 15px; 
+    padding: 5px;
+}
