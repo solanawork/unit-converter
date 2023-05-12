@@ -3,7 +3,9 @@ const fetchUserInput = document.getElementById('user-input')
 const lengthP = document.getElementById("length-p")
 const volumeP = document.getElementById("volume-p")
 const massP = document.getElementById("mass-p")
-function convertUnits() {
+const convertBtn = document.getElementById("convert-btn")
+
+convertBtn.addEventListener ('click', function calc(){
 
  let userInputValue = fetchUserInput.value
  let meToFe = userInputValue * 3.281
@@ -15,8 +17,9 @@ function convertUnits() {
 lengthP.innerHTML =` ${userInputValue} m = ${meToFe.toFixed(3)} feet | ${userInputValue} feet = ${FeToMe.toFixed(3)} m`
 volumeP.innerHTML = ` ${userInputValue} liters = ${liToGa.toFixed(3)} gallons | ${userInputValue} gallons = ${GatoLi.toFixed(3)} liters`
 massP.innerHTML = `${userInputValue} kg = ${kgToP.toFixed(3)} pounds | ${userInputValue} pounds = ${PtoKg.toFixed(3)} kg`
+fetchUserInput.value = ''
+})
 
-}
 
 
 /*
