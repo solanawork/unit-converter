@@ -1,25 +1,38 @@
+@font-face { font-family: inter; 
+  src: url('./fonts/Inter-VariableFont_slnt\,wght.ttf'); } 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
 body {
   margin: 0;
   padding: 0;
+  font-family: inter;
 }
 
 h1 {
   margin: 0px;
   padding: 0px;
+  font-weight: 800;
+  font-size: 28px;
 }
 
 .maint-part {
   height: 200px;
   display: block;
   text-align: center;
-  background-color: purple;
+  background-color: #6943FF;
 }
 
 #convert-btn {
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 #user-input {
@@ -28,16 +41,31 @@ h1 {
   font-size: 75px;
   text-align: center;
   margin-top: 10px;
+  border: 2px #B295FF solid;
+  background-color: #6943FF;
+  border-radius: 5px;
+
+
 }
 
 .lower-part {
   display: block;
   text-align: center;
+  background-color: #1F2937;
 }
 
 .box {
   height: 85px;
-  background-color: darkslateblue;
-  margin: 20px 15px;
+  background-color: #273549;
   padding: 5px;
+}
+
+.unit-text {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.unit-calc {
+  font-weight: 400;
+  font-size: 14px;
 }
